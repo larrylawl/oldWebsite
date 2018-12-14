@@ -8,16 +8,14 @@
     <!-- Mobile Friendly -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- My own stylesheet -->
-	<link rel="stylesheet" href="styles/style.css">
-
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 	<!-- Animation scrolling -->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-
+	<!-- My own stylesheet -->
+	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 	<main>
@@ -29,8 +27,8 @@
 						<h1>Larry Law</h1>
 					</div>
 				</div>
-			<div class="container-fluid">
-				<div class="row">
+			<div class="container-fluid cover-icon">
+				<div class="row" data-aos="fade" data-aos-duration="1500">
 					<div class="col">
 		                <a href="images/larryresume.pdf">
 		                <img class="img-fluid" src="images/resume1.png" alt="">    
@@ -48,12 +46,36 @@
 			</div>
 		</header>
 
-		<section>
+		<section class="about">
+			<h1 style="padding-bottom: 5vw">TL;DR</h1>
 			<div class="container-fluid">
-				<div
-
-
-		<div class="item" data-aos="fade-up">1</div>
+				<div class="row" data-aos="fade-up" style="padding-bottom: 5vw">
+					<div class="col">
+						<img class="img-fluid" src="images/aboutme.png" alt=""> <br>
+                        <h2>Aspiring Fullstack Software Engineer</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+				<div class="row" data-aos="fade-up" style="padding-bottom: 5vw">
+					<div class="col">
+						<img class="img-fluid" src="images/education.png" alt=""> <br>
+                        <h2>Freshman at the National University of Singapore, pursuing Computer Science</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+				<div class="row" data-aos="fade-up" style="padding-bottom: 5vw">
+					<div class="col">
+						<img class="img-fluid" src="images/tools.png" alt=""> <br>
+						<h2>
+                         Language: <code>Javascript, Python, HTML+CSS</code> <br>
+                         Framework: <code>Bootstrap, Scrapy</code>
+                     	</h2>
+                    </div>
+                </div>
+            </div>
+        </section>		
 	</main>
 	
 	<!-- Bootstrap Scripts --> 
