@@ -16,13 +16,8 @@ a:link {
 	text-decoration: none;
 }
 
-.about h2 {
-  font-size: calc(0.5rem + 1.7vw);
-  font-weight:300;
-}
-
 .cover {
-  background-image: url("../images/background2.png");
+  background-image: url("../images/background3.png");
   height: calc(40rem + 10vw);
   background-size: cover;
   background-attachment: fixed;
@@ -43,7 +38,7 @@ header.cover div.container-fluid.cover-icon img:hover{
 
 .about {
   background-color: #DFDFDF;
-  height: calc(40rem + 10vw);
+  height: calc(45rem + 10vw);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -58,6 +53,9 @@ section.experience {
 }
 
 @media (min-width:768px) {
+	header.cover {
+		background-image: url("../images/background3.png");
+	}
 	section.experience .col-12.col-md-5.icon {
 		text-align:right;	
 	}
