@@ -28,25 +28,35 @@ header.cover div.container-fluid.cover-icon img:hover{
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  padding-top: 50px;
+  padding-top: calc(2.5rem + 1vw);
   text-align: center;
   color: black
 }
 
 section.experience {
 	text-align:center;
+	padding-top:calc(2.5rem + 1vw);
 }
 
-section.experience .col-12.col-md-6.icon {
-	text-align:right;	
-}
-
-section.experience .col.text {
-	text-align:left;
+@media (min-width:768px) {
+	section.experience .col-12.col-md-5.icon {
+		text-align:right;	
+	}
+	section.experience .col-12.col-md-6.text {
+		text-align:left;
+	}
 }
 
 .experience img{
 	border-radius: 20%
+}
+
+footer.foot{
+	background-color: black;
+	text-align: center;
+	color: white;
+	height: calc(3rem + 1vw);
+	padding-top:calc(0.4rem + 0.8vw);
 }
 
 /*
