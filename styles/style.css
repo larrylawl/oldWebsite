@@ -1,0 +1,10 @@
+.cover {
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 800px;
+  padding-top: 250px;
+  text-align: center;
+  color: white;
+}
