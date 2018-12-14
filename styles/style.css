@@ -18,7 +18,7 @@ a:link {
 
 .cover {
   background-image: url("../images/background3.png");
-  height: calc(43rem + 15vw);
+  height: calc(45rem + 15vw);
   background-size: cover;
   background-position: center;
   padding-top: 150px;
