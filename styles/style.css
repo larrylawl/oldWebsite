@@ -51,7 +51,7 @@ section.experience {
 	padding-top:calc(2.5rem + 1vw);
 }
 
-@media (min-width:576px) {
+@media (min-width:768px) {
 	header.cover {
 		background-image: url("../images/background2.png");
     background-attachment: fixed;
