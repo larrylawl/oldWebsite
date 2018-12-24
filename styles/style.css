@@ -36,12 +36,6 @@ header.cover div.container-fluid.cover-icon img:hover{
 }
 
 .about {
-  background-color: #DFDFDF;
-  height: calc(45rem + 15vw);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  padding-top: calc(2.5rem + 1vw);
   text-align: center;
   color: black
 }
