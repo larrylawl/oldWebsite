@@ -46,7 +46,7 @@ header.cover div.container-fluid.cover-icon img:hover{
   color: black
 }
 
-section.experience {
+section.content {
 	text-align:center;
 	padding-top:calc(2.5rem + 1vw);
 }
@@ -56,15 +56,15 @@ section.experience {
 		background-image: url("../images/background2.png");
     background-attachment: fixed;
 	}
-	section.experience .col-12.col-md-5.icon {
+	section.content .col-12.col-md-5.icon {
 		text-align:right;	
 	}
-	section.experience .col-12.col-md-6.text {
+	section.content .col-12.col-md-6.text {
 		text-align:left;
 	}
 }
 
-.experience img{
+.content img{
 	border-radius: 20%
 }
 
